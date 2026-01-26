@@ -1,0 +1,57 @@
+# STM32CubeIDE / Eclipse
+.settings/
+.cproject
+.project
+.mxproject
+Debug/
+Release/
+
+# Build outputs
+*.o
+*.su
+*.d
+*.elf
+*.hex
+*.bin
+*.map
+*.list
+
+# STM32CubeMX generated (keep .ioc file!)
+# Uncommment these if you want to regenerate from .ioc each time:
+# Drivers/
+# Middlewares/
+# Core/Startup/
+
+# IDE specific
+*.launch
+.metadata/
+
+# Keil/MDK-ARM
+*.uvguix.*
+*.uvoptx
+DebugConfig/
+RTE/
+
+# IAR
+Debug/
+Release/
+settings/
+*.dep
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Backup files
+*.bak
+*.swp
+*~
+
+# Log files
+*.log
